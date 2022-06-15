@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <aside class="aside-menu">
+        <div class="aside-header">
+            <img src="./images/logo.png" alt="logo" width="32px" height="32px">
+            <p>Dashboard Kit</p>
+        </div>
+        <div class="aside-list">
+            <div class="aside-list-main">
+                <ul>
+                    <a href="index.html">
+                        <img src="./images/1. overview.png" alt="overview">
+                        <li>Overview</li>
+                    </a>
+                    <a href="./pages/tickets.html">
+                        <img src="./images/2. tickets.png" alt="tickets">
+                        <li>Tickets</li>
+                    </a>
+                    <a href="#">
+                        <img src="./images/3. ideas.png" alt="ideas">
+                        <li>Ideas</li>
+                    </a>
+                    <a href="#">
+                        <img src="./images/4. contacts.png" alt="contacts">
+                        <li>Contacts</li>
+                    </a>
+                    <a href="#">
+                        <img src="./images/5. agents.png" alt="agents">
+                        <li>Agents</li>
+                    </a>
+
+                    <a href="#">
+                        <img src="./images/6. articles.png" alt="articles">
+                        <li>Articles</li>
+                    </a>
+                </ul>
+            </div>
+            <hr class="aside-line">
+            <div class="aside-list-additional">
+                <ul>
+                    <a href="#">
+                        <img src="./images/a_1. settings.png" alt="settings">
+                        <li>Settings</li>
+                    </a>
+                    <a href="#">
+                        <img src="./images/a_2. subscription.png" alt="subscription">
+                        <li>Subscription</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <nav class="main-bar">
+            <h1>Overview</h1>
+            <div class="nav-content">
+                <input class="search-bar" placeholder="Search..." type="text">
+                <button id="btn-search">
+                    <img src="./images//search.png" alt="search">
+                </button>
+                <button id="btn-notification">
+                    <img src="./images/new.png" alt="notification">
+                </button>
+                <span class="vertical-line"></span>
+                <h4>Jones Ferdinand</h4>
+                <img src="./images/photo.png" alt="account">
+            </div>
+        </nav>
+        <section class="cards-section">
+            <div class="card">
+                <p>Unresolved</p>
+                <h1>60</h1>
+            </div>
+            <div class="card">
+                <p>Overdue</p>
+                <h1>16</h1>
+            </div>
+            <div class="card">
+                <p>Open</p>
+                <h1>43</h1>
+            </div>
+            <div class="card">
+                <p>On hold</p>
+                <h1>64</h1>
+            </div>
+        </section>
+        <section class="graphic-section">
+            <div class="chart-block">
+                <h1 class="chart-header">Today's trends</h1>
+                <div class="chart-description">
+                    <div class="chart-date">as of 25 May 2019, 09:41 PM</div>
+                    <div class="chart-day">
+                        <span class="chart-line-today"></span>
+                        <p>Today</p>
+                        <span class="chart-line-yesterday"></span>
+                        <p>Yesterday</p>
+                    </div>
+                </div>
+                <div class="chart">
+                    <img src="./images/full graph.png" alt="chart">
+                </div>
+            </div>
+            <div class="stats-block">
+                <div class="stats-resolved">
+                    <h1 class="stats-header">Resolved</h1>
+                    <p>456</p>
+                </div>
+                <div class="stats-received">
+                    <h1 class="stats-header">Received</h1>
+                    <p>253636</p>
+                </div>
+                <div class="stats-average-first">
+                    <h1 class="stats-header">Average first response time</h1>
+                    <p>33m</p>
+                </div>
+                <div class="stats-average-time">
+                    <h1 class="stats-header">Average response time</h1>
+                    <p>457m</p>
+                </div>
+                <div class="stats-resolution">
+                    <h1 class="stats-header">Resolution within SLA</h1>
+                    <p>94%</p>
+                </div>
+            </div>
+        </section>
+        <section class="details-section">
+            <div class="tickets-block">
+                <div class="tickets-header">
+                    <div class="tickets-title">
+                        <h1>Unresolved tickets</h1>
+                        <p><span id="group">Group:</span>support</p>
+                    </div>
+                    <a href="#">
+                        View details
+                    </a>
+                </div>
+                <div class="tickets-content">
+                    <div class="tickets-item">
+                        <h4>Waiting on Feature Request</h4>
+                        <p>63778</p>
+                    </div>
+                    <hr>
+                    <div class="tickets-item">
+                        <h4>Awaiting Customer Response</h4>
+                        <p>63778</p>
+                    </div>
+                    <hr>
+                    <div class="tickets-item">
+                        <h4>Awaiting Developer Fix</h4>
+                        <p>63778</p>
+                    </div>
+                    <hr>
+                    <div class="tickets-item">
+                        <h4>Pending</h4>
+                        <p>63778</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tasks-block">
+                <div class="tasks-header">
+                    <div class="tasks-title">
+                        <h1>Tasks</h1>
+                        <p>Today</p>
+                    </div>
+                    <a href="#">
+                        View all
+                    </a>
+                </div>
+                <div class="tasks-content">
+                    <div class="tasks-item">
+                        <input id="task-input" type="text" placeholder="Create new task">
+                        <button id="btn-add">+</button>
+                    </div>
+                    <hr>
+                    <div class="tasks-item">
+                        <input id="tasks-check" type="checkbox"></input>
+                        <h4>Finish ticket update</h4>
+                        <label id="urgent-label">Urgent</label>
+                    </div>
+                    <hr>
+                    <div class="tasks-item">
+                        <input type="checkbox">
+                        <h4>Create new ticket example</h4>
+                        <label id="new-label">New</label>
+                    </div>
+                    <hr>
+                    <div class="tasks-item">
+                        <input type="checkbox">
+                        <h4>Update ticket report</h4>
+                        <label id="default-label">Default</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
