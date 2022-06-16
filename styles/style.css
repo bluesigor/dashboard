@@ -204,6 +204,11 @@
         flex: 0.4;
     }
     
+    .main-bar h4 a {
+        text-decoration: none;
+        color: #363740;
+    }
+    
     .nav-content {
         flex: 0.45;
         display: flex;
