@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,500;1,400&family=Inconsolata&family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+/* Login main start */
+
+.outer-main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #29292d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-block {
+    border-radius: 8px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 580px;
+    background-color: #fff;
+}
+
+.login-title {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.logo-section h4 {
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    color: #A4A6B3;
+    font-size: 19px;
+    opacity: 70%;
+    margin-top: 12px;
+}
+
+.logo-section a {
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.login-title {
+    margin-top: 30px;
+}
+
+.login-title h3 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.login-title p {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9FA2B4;
+}
+
+.login-input {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.email-section,
+.password-section {
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-section label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+
+#email {
+    margin-top: 6px;
+    width: 100%;
+    height: 42px;
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+}
+
+.password-section {
+    margin-top: 24px;
+}
+
+.label-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#password-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #9FA2B4;
+}
+
+#forgot-label {
+    font-size: 10px;
+    font-weight: 400;
+    color: #A4A6B3;
+}
+
+#password {
+    width: 100%;
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    margin-top: 6px;
+    height: 42px;
+    background-image: url('../images/active.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+
+#password:hover {
+    background-color: #F0F1F7;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+#email:hover {
+    background-color: #F0F1F7;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.btn-login {
+    margin-top: 24px;
+    width: 100%;
+}
+
+#login {
+    text-align: center;
+    width: 100%;
+    height: 48px;
+    background-color: rgba(0, 0, 255, 0.801);
+    color: #F0F1F7;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+
+#login:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.941);
+    transition: 0.7s;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.signup-block {
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9FA2B4;
+}
+
+.signup-block a {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(0, 0, 255, 0.801);
+}
+
+.signup-block a:hover {
+    color: rgba(0, 0, 255, 0.941);
+    transition: 0.7s;
+}
+
+
+/* Login end */
+
+
+/* Responsive for login */
+
+@media(max-width:400px) {
+    .login-block {
+        width: 340px;
+        height: 540px;
+        padding: 30px;
+    }
+}
+
+
+/* Responsive end */
