@@ -1,0 +1,168 @@
+/* Tickets section start */
+
+.tickets-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #eff3ff
+}
+
+@media(max-width:520px) {
+    .tickets-table-description {
+        padding: 0px 15px 0px 15px !important;
+    }
+}
+
+.tickets-section {
+    border: 1px solid #9FA2B4;
+    border-radius: 4px;
+    margin-top: 45px;
+    background-color: #fff;
+}
+
+.tickets-section-header {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tickets-section-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #252733;
+}
+
+.ticket-btns {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-evenly;
+}
+
+#btn-sort,
+#btn-filter {
+    color: #4B506D;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+}
+
+.tickets-table-description {
+    padding: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 110px;
+    justify-content: space-between;
+}
+
+.tickets-decription-title {
+    flex: 0.5;
+    font-size: 14px;
+    font-weight: 700;
+    color: #9FA2B4;
+}
+
+.tickets-decription-customer,
+.tickets-decription-date,
+.tickets-decription-prioriy {
+    font-size: 14px;
+    font-weight: 700;
+    color: #9FA2B4;
+}
+
+hr {
+    color: #9FA2B4;
+}
+
+.customer-section {
+    width: 100%;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer-message {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.customer-message-details {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-message-details h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.customer-message-details p {
+    color: #C5C7CD;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.customer-section-details {
+    flex: 0.7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.customer-name {
+    margin-left: -22px;
+}
+
+.customer-name h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.customer-name p {
+    color: #C5C7CD;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.customer-date {
+    padding-left: 74px;
+}
+
+.customer-date h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.customer-date p {
+    color: #C5C7CD;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.customer-priority {
+    border: 1px solid #F12B2C;
+    width: 54px;
+    text-align: center;
+    border-radius: 8px;
+    color: rgb(254, 254, 254);
+    height: 24px;
+    background-color: #F12B2C;
+}
+
+.icon-more {
+    flex: 0.1;
+    text-align: center;
+}
+
+
+/* Tickets end */
