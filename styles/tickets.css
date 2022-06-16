@@ -12,6 +12,12 @@
     .tickets-table-description {
         padding: 0px 15px 0px 15px !important;
     }
+    .customer-section {
+        flex-direction: column !important;
+    }
+    .navigation-section {
+        padding: 20px !important;
+    }
 }
 
 .tickets-section {
@@ -162,6 +168,50 @@ hr {
 .icon-more {
     flex: 0.1;
     text-align: center;
+}
+
+.navigation-section {
+    padding: 30px 70px 30px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: #9FA2B4;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navigation-page {
+    padding-right: 40px;
+}
+
+.navigation-page select {
+    color: #4B506D;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.navigation-page,
+.navigation-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-btn button {
+    padding-left: 10px;
+    border: none;
+    font-size: 16px;
+    color: #9FA2B4;
+    background-color: rgb(254, 254, 254);
+}
+
+.navigation-btn button:hover {
+    color: #4B506D;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 
