@@ -129,23 +129,23 @@
         margin-bottom: 20px;
     }
     
-    .aside-list-main ul a {
+    .aside-list-main ul li {
         align-items: center;
         justify-content: space-around;
         display: flex;
         flex-direction: row;
         list-style: none;
-        text-decoration: none;
     }
     
-    .aside-list-main ul a li {
+    .aside-list-main ul li a {
+        text-decoration: none;
         color: #A4A6B3;
         font-size: 16px;
         align-items: flex-start;
         padding-left: 30px;
     }
     
-    .aside-list-main ul a li:hover {
+    .aside-list-main ul li a:hover {
         color: aliceblue;
         transition: 0.7s;
     }
@@ -159,18 +159,18 @@
         justify-content: space-evenly;
     }
     
-    .aside-list-additional ul a {
+    .aside-list-additional ul li {
         align-items: center;
         min-height: 3vh;
         justify-content: space-around;
         display: flex;
         flex-direction: row;
         list-style: none;
-        text-decoration: none;
         color: aliceblue;
     }
     
-    .aside-list-additional ul a li {
+    .aside-list-additional ul li a {
+        text-decoration: none;
         font-size: 16px;
         align-items: flex-start;
         padding-left: 30px;
